@@ -10,7 +10,7 @@ type treeNode[T comparable] struct {
 	index  *VectorIndex[T]
 	// normal vector defining the hyper plane represented by the node
 	// splits the search space into two halves represented by the left and right child in the tree
-	normalVec []float64
+	normalVec []float32
 
 	// if both, left and right are nil, the node represents a leaf node
 	left  *treeNode[T]
@@ -20,7 +20,7 @@ type treeNode[T comparable] struct {
 	items []T
 }
 
-func newTreeNode[T comparable](index *VectorIndex[T], normalVec []float64) *treeNode[T] {
+func newTreeNode[T comparable](index *VectorIndex[T], normalVec []float32) *treeNode[T] {
 	return &treeNode[T]{
 		nodeID:    uuid.New().String(),
 		index:     index,

@@ -3,7 +3,7 @@ package index
 type queueItem struct {
 	value    string
 	index    int
-	priority float64
+	priority float32
 }
 
 type priorityQueue []*queueItem

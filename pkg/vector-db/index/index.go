@@ -19,16 +19,16 @@ const (
 
 type DataPoint[T comparable] struct {
 	ID        T
-	Embedding []float64
+	Embedding []float32
 }
 
 type SearchResult[T comparable] struct {
 	ID       T
-	Distance float64
-	Vector   []float64
+	Distance float32
+	Vector   []float32
 }
 
-func NewDataPoint[T comparable](id T, embedding []float64) *DataPoint[T] {
+func NewDataPoint[T comparable](id T, embedding []float32) *DataPoint[T] {
 	return &DataPoint[T]{id, embedding}
 }
 
@@ -127,18 +127,18 @@ func (vi *VectorIndex[T]) AddDataPoint(dataPoint *DataPoint[T]) error {
 }
 
 // nolint: funlen, cyclop
-func (vi *VectorIndex[T]) SearchByVector(input []float64, searchNum int, numberOfBuckets float64) (*[]SearchResult[T], error) {
+func (vi *VectorIndex[T]) SearchByVector(input []float32, searchNum int, numberOfBuckets float32) ([]SearchResult[T], error) {
 	if len(input) != vi.NumberOfDimensions {
 		return nil, errShapeMismatch
 	}
 
-	totalBucketSize := int(float64(searchNum) * numberOfBuckets)
+	totalBucketSize := int(float32(searchNum) * numberOfBuckets)
 	annMap := make(map[T]struct{}, totalBucketSize)
 	pq := priorityQueue{}
 
 	// insert root nodes into pq
 	for i, r := range vi.Roots {
-		pq = append(pq, &queueItem{r.nodeID, i, math.Inf(-1)})
+		pq = append(pq, &queueItem{r.nodeID, i, float32(math.Inf(-1))})
 	}
 
 	heap.Init(&pq)
@@ -172,7 +172,7 @@ func (vi *VectorIndex[T]) SearchByVector(input []float64, searchNum int, numberO
 	}
 
 	// calculate actual distances
-	idToDist := make(map[T]float64, len(annMap))
+	idToDist := make(map[T]float32, len(annMap))
 	ann := make([]T, 0, len(annMap))
 
 	for id := range annMap {
@@ -192,10 +192,10 @@ func (vi *VectorIndex[T]) SearchByVector(input []float64, searchNum int, numberO
 
 	searchResults := make([]SearchResult[T], len(ann))
 	for i, id := range ann {
-		searchResults[i] = SearchResult[T]{ID: id, Distance: math.Abs(idToDist[id]), Vector: vi.IDToDataPointMapping[id].Embedding}
+		searchResults[i] = SearchResult[T]{ID: id, Distance: float32(math.Abs(float64(idToDist[id]))), Vector: vi.IDToDataPointMapping[id].Embedding}
 	}
 
-	return &searchResults, nil
+	return searchResults, nil
 }
 
 func (vi *VectorIndex[T]) SearchByItem() ([]int, error) {
@@ -212,7 +212,7 @@ const (
 // GetNormalVector calculates the normal vector of a hyperplane that separates
 // the two clusters of data points.
 // nolint: funlen, gocognit, cyclop, gosec
-func (vi *VectorIndex[T]) GetNormalVector(dataPoints []*DataPoint[T]) []float64 {
+func (vi *VectorIndex[T]) GetNormalVector(dataPoints []*DataPoint[T]) []float32 {
 	lvs := len(dataPoints)
 	// Initialize two centroids randomly from the data points.
 	c0, c1 := vi.getRandomCentroids(dataPoints)
@@ -222,7 +222,7 @@ func (vi *VectorIndex[T]) GetNormalVector(dataPoints []*DataPoint[T]) []float64 
 	for i := 0; i < cosineMetricsMaxIteration; i++ {
 		// Create a map from cluster ID to a slice of vectors assigned to that
 		// cluster during clustering.
-		clusterToVecs := map[int][][]float64{}
+		clusterToVecs := map[int][][]float32{}
 
 		// Randomly sample a subset of the data points.
 		iter := imath.Min(cosineMetricsMaxTargetSample, len(dataPoints))
@@ -246,8 +246,8 @@ func (vi *VectorIndex[T]) GetNormalVector(dataPoints []*DataPoint[T]) []float64 
 		lc0 := len(clusterToVecs[0])
 		lc1 := len(clusterToVecs[1])
 
-		if (float64(lc0)/float64(iter) <= cosineMetricsTwoMeansThreshold) &&
-			(float64(lc1)/float64(iter) <= cosineMetricsTwoMeansThreshold) {
+		if (float32(lc0)/float32(iter) <= cosineMetricsTwoMeansThreshold) &&
+			(float32(lc1)/float32(iter) <= cosineMetricsTwoMeansThreshold) {
 			break
 		}
 
@@ -260,27 +260,27 @@ func (vi *VectorIndex[T]) GetNormalVector(dataPoints []*DataPoint[T]) []float64 
 		}
 
 		// Update the centroids based on the data points assigned to each cluster
-		c0 = make([]float64, vi.NumberOfDimensions)
-		it0 := int(float64(lvs) * cosineMetricsCentroidCalcRatio)
+		c0 = make([]float32, vi.NumberOfDimensions)
+		it0 := int(float32(lvs) * cosineMetricsCentroidCalcRatio)
 
 		for i := 0; i < it0; i++ {
 			for d := 0; d < vi.NumberOfDimensions; d++ {
-				c0[d] += clusterToVecs[0][rand.Intn(lc0)][d] / float64(it0)
+				c0[d] += clusterToVecs[0][rand.Intn(lc0)][d] / float32(it0)
 			}
 		}
 
-		c1 = make([]float64, vi.NumberOfDimensions)
-		it1 := int(float64(lvs)*cosineMetricsCentroidCalcRatio + 1)
+		c1 = make([]float32, vi.NumberOfDimensions)
+		it1 := int(float32(lvs)*cosineMetricsCentroidCalcRatio + 1)
 
-		for i := 0; i < int(float64(lc1)*cosineMetricsCentroidCalcRatio+1); i++ {
+		for i := 0; i < int(float32(lc1)*cosineMetricsCentroidCalcRatio+1); i++ {
 			for d := 0; d < vi.NumberOfDimensions; d++ {
-				c1[d] += clusterToVecs[1][rand.Intn(lc1)][d] / float64(it1)
+				c1[d] += clusterToVecs[1][rand.Intn(lc1)][d] / float32(it1)
 			}
 		}
 	}
 
 	// Create a new array to hold the resulting normal vector.
-	ret := make([]float64, vi.NumberOfDimensions)
+	ret := make([]float32, vi.NumberOfDimensions)
 
 	// Calculate the normal vector by subtracting the coordinates of the second centroid from those of the first centroid.
 	// Store the resulting value in the corresponding coordinate of the ret slice.
@@ -293,7 +293,7 @@ func (vi *VectorIndex[T]) GetNormalVector(dataPoints []*DataPoint[T]) []float64 
 }
 
 // nolint: gosec
-func (vi *VectorIndex[T]) getRandomCentroids(dataPoints []*DataPoint[T]) ([]float64, []float64) {
+func (vi *VectorIndex[T]) getRandomCentroids(dataPoints []*DataPoint[T]) ([]float32, []float32) {
 	lvs := len(dataPoints)
 	k := rand.Intn(lvs)
 	l := rand.Intn(lvs - 1)

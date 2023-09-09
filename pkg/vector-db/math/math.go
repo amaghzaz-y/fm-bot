@@ -18,8 +18,8 @@ func Min[T constraints.Ordered](a, b T) T {
 	return b
 }
 
-func VectorDotProduct(base, target []float64) float64 {
-	var ret float64
+func VectorDotProduct(base, target []float32) float32 {
+	var ret float32
 	for i := range base {
 		ret += base[i] * target[i]
 	}
