@@ -1,6 +1,10 @@
 version: '3'
 
 tasks:
+  dev:
+    cmds:
+      - echo 'FM-BOT DEV MODE :'
+      - go run cmd/main.go
   genvec:
     cmds:
       - echo 'Generating Vectores from PDF'
