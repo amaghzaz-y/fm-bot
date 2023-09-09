@@ -4,5 +4,5 @@ tasks:
   genvec:
     cmds:
       - echo 'Generating Vectores from PDF'
-      - go run scripts/genvec.go
+      - go run scripts/genvecs.go
     silent: true
