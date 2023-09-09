@@ -1,0 +1,1796 @@
+Règlement EurobotOpen 2024
+31e édition des Rencontres de Robotique - Planète Sciences
+Version BETA
+
+NOTE : toutes les images présentes dans ce document sont communiquées à titre indicatif pour illustrer les différents paragraphes. En aucun cas elles ne peuvent servir de référence. Seuls les dimensions, couleurs et matériaux indiqués en annexe sont à prendre en considération.
+
+. Table des matières
+A. NOTICE
+
+3
+
+B. PRÉSENTATION DES CONCOURS
+
+4
+
+C. PRÉSENTATION DU THÈME
+
+5
+
+D. L’AIRE DE JEU ET LES ACTIONS
+D.1. NOTE IMPORTANTE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+D.2. L’AIRE DE JEU . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+D.3. LES ZONES DE DÉPART . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+D.4. DESCRIPTION ET DISPOSITION DES ÉLÉMENTS DE JEU . . . . . . . . . . . . . . . . . . . .
+D.5. REMPOTER LES PLANTES ET LES METTRE EN CULTURE. . . . . . . . . . . . . . . . . . . .
+D.6. ORIENTER LES PANNEAUX SOLAIRES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+D.7. ASSURER LA POLLINISATION DES PLANTES . . . . . . . . . . . . . . . . . . . . . . . . . . .
+D.8. RETOURNER SE RECHARGER LES BATTERIES . . . . . . . . . . . . . . . . . . . . . . . . . .
+D.9. ANTICIPER LE FUTUR RENDEMENT DE LA RÉCOLTE . . . . . . . . . . . . . . . . . . . . . .
+
+6
+6
+7
+8
+9
+11
+12
+13
+14
+15
+
+E. PRÉSENTATION DU PROJET
+
+16
+
+F. LES ROBOTS
+F.1. GÉNÉRALITÉS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+F.2. DIMENSIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+F.3. CONTRAINTES DE SÉCURITÉ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+F.4. SIGNAUX DE COMMUNICATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+F.5. AUTRES CONTRAINTES DE CONCEPTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+F.6. PETIT ACTIONNEUR MOBILE INDEPENDANT . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+17
+17
+17
+18
+20
+21
+22
+
+G. SYSTÈME DE REPÉRAGE PAR BALISES
+G.1. GÉNÉRALITÉS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+G.2. BALISE EMBARQUÉE SUR LE ROBOT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+G.3. BALISES FIXES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+G.4. DISPOSITIF DE CALCUL ET D’OBSERVATION DEPORTÉ . . . . . . . . . . . . . . . . . . . . .
+G.5. AUTRE CONTRAINTE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+G.6. IDENTIFICATION DU ROBOT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+23
+23
+23
+24
+24
+25
+26
+
+H. LES MATCHS
+H.1. TEMPS DE PREPARATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+H.2. LE MATCH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+H.3. FIN DU MATCH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+H.4. LE COMPTAGE DES POINTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+27
+27
+27
+27
+28
+
+I. LES RENCONTRES
+I.1. GÉNÉRALITÉS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+I.2. L’HOMOLOGATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+I.3. LA PHASE QUALIFICATIVE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+I.4. LA PHASE DE BARRAGE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+I.5. LA PHASE FINALE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+I.6. QUALIFICATION POUR LA RENCONTRE NATIONALE . . . . . . . . . . . . . . . . . . . . . . .
+I.7. QUALIFICATION POUR LA RENCONTRE EUROPÉENNE . . . . . . . . . . . . . . . . . . . . .
+
+31
+31
+31
+31
+32
+33
+33
+33
+
+J. ANNEXES
+
+35
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+1
+
+J.1.
+J.2.
+J.3.
+J.4.
+
+PLANS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+RÉFÉRENCES DES MATÉRIAUX . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+TOLÉRANCES DE FABRICATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+RÉFÉRENCES DES COULEURS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+35
+44
+45
+46
+
+2
+
+A. NOTICE
+
+ATTENTION !
+Des remarques générales sont annotées dans le document. Merci de porter une attention toute
+particulière à ces points.
+
+Le règlement a été découpé en plusieurs documents. Il reste globalement le même pour les différents concours
+EurobotOpen et EurobotOpen Junior, mais dans un soucis de clarté, chaque concours dispose de son propre document de règlement.
+Ainsi les cas particuliers inhérents à l’un des concours ne figurent que dans le document le concernant.
+Vous trouverez le règlement EurobotOpen et EurobotOpen Junior ainsi que d’autres informations sur le site du
+concours EurobotOpen (www.eurobot.org/)
+
+Notez également que la version de ce document est rappelée en pied de page. Seules les versions
+officielles doivent être prises en compte.
+
+Des évolutions ou précisions au règlement peuvent être définies en cours d’année. Nous invitons fortement les
+équipes à consulter régulièrement notre site web (www.eurobot.org/) ainsi que le site Internet de leur comité
+d’organisation local où des FAQ pourront être disponibles. Vous pouvez également suivre les discussions et
+les informations diffusées sur la faq (www.eurobot.org/faq/).
+Les éventuelles modifications du cahier des charges seront, si nécessaire, indiquées dans un document complémentaire qui sera disponible sur les sites Internet de l’ensemble des rencontres par votre comité d’organisation national1 et Eurobot (https://www.eurobot.org/).
+Les réponses publiées sur la FAQ émanant d’un arbitre référent sont des réponses officielles prises en compte
+pour l’arbitrage des matchs et les étapes d’homologation.
+En cas de doute concernant un point du règlement ou l’homologation des robots, le comité d’arbitrage pourra
+également être contacté à l’adresse referee@planete-sciences.org.
+
+Bonne lecture !
+
+1 À titre d’exemples : pour la France https://www.coupederobotique.fr/, pour la Belgique https://sparkoh.be/projet-robotixs/,
+pour la Suisse https://swisseurobot.ch/
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+3
+
+B. PRÉSENTATION DES CONCOURS
+EurobotOpen et EurobotOpen Junior sont deux rencontres de robotique amateurs, ouvertes aux jeunes réunis
+au sein d’un club, d’un groupe d’amis ou d’un cadre scolaire. Ils ont pour objectifs communs de permettre aux
+jeunes d’être les acteurs de leur apprentissage et de mettre en pratique leurs savoirs, savoir-faire et savoirêtre, en participant à un événement ludique et convivial. Le challenge technique consiste à construire un robot
+autonome.
+Les règlements d’EurobotOpen et d’EurobotOpen Junior sont similaires. Le but de cette démarche est d’offrir un
+support commun entre la rencontre EurobotOpen dédiée aux robots autonomes et EurobotOpen Junior dédiée
+aux robots pilotés. Ainsi, l’organisateur d’une rencontre EurobotOpen devient également en capacité d’organiser
+une rencontre avec les moins de 18 ans d’EurobotOpen Junior et inversement.
+
+Vous êtes en possession de la version
+Open
+
+Eurobot
+
+BETA du règlement 2024.
+
+(celle-ci concerne les robots entièrement autonomes)
+
+La limite d’âge des participants pour la finale EurobotOpen est de 30 ans inclus, chaque équipe pouvant intégrer
+un encadrant auquel cette limite d’âge ne s’applique pas. Les équipes ne respectant pas cette limite d’âge ne
+pourront pas participer à la finale européenne EurobotOpen .
+Une équipe est un groupe de 2 jeunes personnes au minimum ayant fabriqué un robots pour la rencontre, ainsi
+que les systèmes annexes. Un jeune ne peut faire partie que d’une seule équipe. Cependant, nous encourageons les échanges d’expériences entre les équipes.
+Une même structure (club, établissement scolaire, etc.) peut encadrer et inscrire plusieurs équipes, en respectant les conditions d’inscription fournies par son comité d’organisation national. L’acceptation et le respect de
+ces conditions d’inscription sont indispensables pour valider votre inscription et votre participation.
+Le projet peut être encadré par un adulte (enseignant, parent, animateur, etc.), mais tous les éléments du ou
+des robots doivent être imaginés, conçus et assemblés par les jeunes. Dans ce cadre les robots fabriqués à
+partir d’un châssis ou d’une base roulante acheté dans le commerce ne seront pas acceptés.
+
+L’organisation se garde le droit de refuser la participation d’un robot si ce dernier a visiblement été
+imaginé, conçu ou assemblé par l’encadrant et non les jeunes. Pendant l’évènement, l’encadrant n’a
+pas le droit de modifier directement le robot. Il peut, en revanche, conseiller sur les modifications à
+faire.
+Les finales européennes d’EurobotOpen et d’EurobotOpen Junior rassemblent les équipes sélectionnées sur les
+finales nationales. Les finales européennes se déroulent en Europe, mais tous les pays peuvent participer.
+Les pays ayant au moins trois équipes doivent organiser une qualification nationale afin de sélectionner les
+équipes qui pourront concourir aux finales européennes.
+
+Comme chaque année, un certain nombre de paramètres ont été modifiés. En conséquence, relisez
+bien en détail tous les éléments de ce règlement, même ceux qui vous paraissent familiers.
+
+Les concours de robotique se déroulent dans le cadre d’événements grand public. Par conséquent, nous
+demandons aux équipes de respecter les règles de bienséance et de sécurité (électrique, niveau sonore,
+savoir-vivre, etc...). Ces règles s’appliquent aux personnes et au matériel qu’elles apportent.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+4
+
+C. PRÉSENTATION DU THÈME
+L’espace, frontière de l’infini vers laquelle voyage notre vaisseau spatial, notre première étape est : Mars. Mais
+si on arrive à l’heure du déjeuner, comment allons nous faire pour nous sustenter ? Après tout, les gateaux de
+mémère Monique ont tous été mangés l’an passé !
+C’est pourquoi nos robots ont une mission très importante pour la bonne réussite de notre voyage : préparer le
+terrain et faire des réserves de nourriture ! Ou plus exactement, faire en sorte que la serre autonome déjà mis
+en place survive assez longtemps pour que nos astronautes puissent récolter des fruits et légumes, et ainsi
+survivre et continuer leur long voyage !
+Ces missions seront :
+• Rempoter les plantes et les mettre en culture,
+• Orienter les panneaux solaires pour que la serre ne perde pas d’énergie,
+• Assurer la pollinisation des plantes,
+• Retourner se recharger les batteries, à la fin de la journée de travail,
+• Anticiper le futur rendement de la récolte.
+
+Attention : toutes les actions sont indépendantes les unes des autres et aucun ordre n’est imposé
+pour les réaliser. Aucune action n’est obligatoire. Pensez à bien définir votre stratégie. Il est fortement
+recommandé de s’attacher à concevoir des systèmes simples et fiables sur un nombre limité d’actions.
+
+F IGURE 1 : Vue générale de l’aire de jeu
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+5
+
+D. L’AIRE DE JEU ET LES ACTIONS
+D.1. NOTE IMPORTANTE
+Les organisateurs s’engagent à construire l’aire de jeu avec la plus grande exactitude possible. Néanmoins,
+des tolérances mineures peuvent être observées en fonction des contraintes de fabrication.
+
+Aucune réclamation concernant des écarts dimensionnels ne sera enregistrée.
+
+Les équipes sont averties que l’état de surface peut différer d’une aire de jeu à une autre et peut également
+se dégrader au cours du temps.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+6
+
+D.2. L’AIRE DE JEU
+L’aire de jeu est un plan rectangulaire horizontal de 3000 mm par 2000 mm avec des bordures de 70 mm
+sur chaque côté. En fonction des menuisiers, elle peut être composée d’un ou plusieurs morceaux relié entre
+eux (par exemple, 3 morceaux de 1000 mm par 2000 mm). Attention les jointures pourront présenter des
+imperfections, il ne sera pas possible de contester ces imperfections durant la compétition.
+
+F IGURE 2 : Vue détaillée de l’aire de jeu
+
+1. Aires de départ/arrivé et dépose
+
+9. Panneaux solaire réservés
+
+2. Aires de départ/arrivé et dépose réservés
+
+10. Tag ArUco numéro 20
+
+3. Aires de départ PAMI (Hotel à insecte)
+
+11. Tag ArUco numéro 21
+
+4. Stock de pot
+12. Tag ArUco numéro 22
+5. Stock de plantes
+6. Jardinières
+
+13. Tag ArUco numéro 23
+
+7. Jardinière réservés
+
+14. Supports de balises fixes
+
+8. Panneaux solaires
+
+15. Zone de calcul déporté
+
+Toutes les dimensions de l’aire de jeu ainsi que le positionnement des éléments mobiles, leurs couleurs et références sont indiqués en annexe de ce règlement.
+Dans le reste du document, la notion d’horizontalité et de verticalité est à considérer par rapport au
+plan de l’aire de jeu. Et les notions de « gauche », « droite », « avant », « arrière » ou « fond » sont
+relatives au point de vue du public.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+7
+
+D.3. LES ZONES DE DÉPART
+D.3.a.
+
+DESCRIPTION
+
+Chaque équipe dispose de 3 aires de départ, ce sont des surfaces carrées de 45 cm de côté délimitées par
+une ligne sur la table, qui est elle-même incluse dans cette zone et de la couleur de l’équipe. Ces aires sont
+à la fois les zones de départ pour le robot, une zone est également une zone de dépose des plantes, et une
+zone est également la zone d’arrivée des robots. (Voir la répartition des aires de dépose dans la description
+de l’aire de jeu).
+
+(a) Une des aires de dépose de l’équipe jaune
+
+(b) Une des aires de dépose de l’équipe bleue
+
+F IGURE 3 : Vue détaillée des aires de dépose des équipes bleue et jaune
+D.3.b.
+
+CONTRAINTES
+
+À la fin du temps de préparation, la projection verticale des robots ne doit pas dépasser des limites de leur
+zone de départ.
+Assurez-vous que vos robots puissent entrer entièrement dans leur zone de départ. Les lignes colorées sur
+le vinyle font partie de la zone de départ.
+Durant les 3 minutes du temps de préparation, un robot peut changer de zone de départ parmi toutes les
+zones de l’équipe. Après les 3 minutes, le robot doit obligatoirement démarrer depuis la zone dans laquelle il
+se trouve.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+8
+
+D.4. DESCRIPTION ET DISPOSITION DES ÉLÉMENTS DE JEU
+Les plantes : Les plantes sont des plantes en plastiques, d’un diamètre de 5 cm, d’une hauteur de 12 cm
+avec une masse de maximum 25 g. Elles sont au nombre de 36, 12 plantes de types résistantes et 24 de type
+fragiles, et sont initialement situées sur des zones prédéfinies selon les marquages sur l’aire de jeu en lots de
+6 (2 plantes de type fragiles et 4 plantes de type résistantes) en position aléatoire dans chaque zone.
+
+F IGURE 4 : Les 2 types de plantes et le pot en fer
+
+F IGURE 5 : Disposition des plantes
+Il existe 2 types de plantes, chacune possédant une couleur sur le pourtour de sa base et un tag RFID sous le
+pot :
+• Les plantes fragiles : feuillage vert foncé, pot de couleur blanche et tag RFID "1"
+• Les plantes resistantes : feuillage verte clair, pot de couleur violette et tag RFID "2"
+
+(a) Une plante fragiles
+
+(b) Deux plantes résistante
+
+F IGURE 6 : Les différents types de plantes : résistantes et fragiles
+
+Les pots en fer : Les pots sont des cache-pots en acier galvanisé de 0.1L, d’un diamètre 7 cm, d’une hauteur
+de 6.5 cm avec une masse de maximum 50 g. Ils sont au nombre de 36, et sont initialement situés sur des
+emplacements prédéfinis selon les marquages sur l’aire de jeu : lots de 6 en position fixe dans chaque zone.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+9
+
+(a) Disposition des pots.
+
+(b) Une plante dans le pot.
+
++
+
+F IGURE 7 : Disposition des pots en fer et association d’un pot en fer avec une plante
+Les jardinières : Ce sont les supports de dépose de chaque équipe disposés à l’extérieur des bordures
+latérales de l’aire de jeu.
+
+Attention : certains supports de dépose sont à l’usage exclusif de chaque équipe, alors que les autres
+ne sont pas protégés du vol. (Voir la répartition des aires de dépose dans la description de l’aire de
+jeu.)
+
+Les coccinelles : Fabriquées par l’équipe, la coccinelle est un petit actionneur mobile indépendant relaché
+en fin de match pour "polliniser les plantes".
+Les panneaux solaires : Les panneaux solaires sont des éléments de jeux imprimés en 3D, placés en avant
+de table, orienté vers l’extérieur en début de match, et que les équipes doivent orienter dans leurs directions
+respectives.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+10
+
+D.5. REMPOTER LES PLANTES ET LES METTRE EN CULTURE.
+Les robots devront ramasser les plantes fraîchement arrivées de la Terre, les rempoter et les mettre en cultures
+afin qu’elles survivent. Mais en aura-t-il assez pour la bonne réussite de la mission ?
+
+D.5.a.
+
+DESCRIPTION ET DISPOSITION DES ÉLÉMENTS DE JEU
+
+Pour cette action, les plantes et les pots sont utilisées avec les aires de dépose et les jardinières.
+D.5.b.
+
+ACTIONS ET CONTRAINTES
+
+Actions :
+• Les robots doivent ramasser les plantes et les mettre en pot pour augmenter leurs chances de survie.
+Une fois les plantes rempotées, ils devront les déposer dans les aires de dépose adaptées à chaque
+plante afin d’améliorer leur productivité.
+Contraintes :
+• Pour qu’une plante soit valide, elle doit être déposée dans l’une des zones de dépose.
+• Si une plante est renversée, alors elle ne poussera pas, et ne rapporte aucun point.
+• Si une plante est dans un pot, alors elle a une valeur plus importante valeur, et rapporte un bonus de
+point.
+• Chaque type de plante supporte un ou des environnements spécifique :
+- Les plantes résistantes : supporte tous les environnements.
+- Les plantes fragiles : supporte seulement les jardinières.
+Le respect des plantes et de leurs environnements octroie les points.
+• Pour être considérée valide pour une équipe, une plante doit être debout et avoir tout ou partie de sa
+surface de contact ,ou celle de son pot, avec le sol d’une aire de dépose ou le fond d’une jardinière de
+cette même équipe.
+• Une aire de dépose ou une jardinière ne pourra pas accueillir plus de 6 plantes, toute plante supplémentaire ne sera pas comptabilisée. Dans ce cas, le comptage des points se fera à l’avantage de l’équipe.
+• Seules les plantes déposées dans les aires de dépose protégées seront à l’usage de l’équipe exclusivement (Voir la répartition des aires de dépose dans la description de l’aire de jeu). Tout enlèvement
+d’élément de ces aires protégées par l’équipe adverse entraînera un forfait.
+• Une plante toujours contrôlée par un robot à l’issue du match ne sera pas comptée.
+D.5.c.
+
+POINTS
+
+• P 1 points par plante valide dans une zone adaptée
+• P 2 points supplémentaires si la plante valide est dans un pot
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+11
+
+D.6. ORIENTER LES PANNEAUX SOLAIRES
+Une serre robotisée consomme de l’énergie, beaucoup d’énergie, et pour continuer de fonctionner correctement il faut orienter les panneaux solaires face au soleil et ainsi faire le plein d’électrons.
+D.6.a.
+
+DESCRIPTION ET DISPOSITION DES ÉLÉMENTS DE JEU
+
+Cette action implique les panneaux solaires.
+
+D.6.b.
+
+ACTIONS ET CONTRAINTES
+
+Actions :
+• Orienter les panneaux pour que leurs faces pointent vers le côté de la table associée à l’équipe.
+Contraintes :
+• Au lancement de match, les panneaux solaires sont orientés vers l’extérieur de la table, aucune des
+bandes de couleur n’est à l’intérieur de la table.
+• Pour qu’un panneau soit considéré valide pour une équipe, il doit avoir tout ou partie de la projection
+verticale du bord de la couleur de l’équipe comprise à l’intérieur de la table. Si les deux bords de couleur
+sont à l’intérieur de la table, le panneau est valide pour les deux équipes.
+• Les 2 premiers panneaux du côté associé à une équipe sont à usage exclusif de l’équipe, l’équipe
+adverse n’a pas le droit de les manipuler.
+D.6.c.
+
+POINTS
+
+• P 3 points pour chaque panneau valide pour l’équipe;
+
+F IGURE 8 : Panneaux en position initial, valide pour le côté jaune , bleue , pour les deux.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+12
+
+D.7. ASSURER LA POLLINISATION DES PLANTES
+Faire survivre les plantes c’est bien, mais pour nourrir nos astronautes il faudra que ces plantes produisent
+des fruits et légumes. C’est pourquoi une mission importante est de polliniser les plantes.
+D.7.a.
+
+DESCRIPTION ET DISPOSITION DES ÉLÉMENTS DE JEU
+
+Cette action implique les plantes dans la zone de dépose au sol et les coccinelles (PAMI).
+
+D.7.b.
+
+ACTIONS ET CONTRAINTES
+
+Actions :
+• L’équipe doit relâcher une ou des coccinelles, et faire en sorte qu’elles atteignent des plantes ou des
+pots.
+• La ou les coccinelles sont des petits actionneurs mobiles indépendant (PAMI) conçues par l’équipe. Pour
+des raisons de faciliter d’identification, une harmonisation du design et des couleurs entre les coccinelles
+et les robots est souhaitée.
+Contraintes :
+• Durant la préparation, les coccinelles seront déposées dans la zone de départ des PAMI (hotel à insecte),
+et doivent être contenue dans les limites de la zone.
+• Une équipe peut posséder autant de coccinelles qu’elle le souhaite, elles devront toutes être contenues
+dans la zone de départ des PAMI et ne seront pas empilables. Elles ont le droit sortir de leurs zones
+seulement entre la 90eme et la 100eme secondes du match (invalidation de la coccinelle dans le cas
+contraire), les coccinelles auront alors 10 secondes pour atteindre leurs objectifs.
+• La coccinelle est validée comme étant en zone si tout ou partie de sa projection verticale est dans une
+zone de dépose au sol en fin de match.
+• La coccinelle est validée comme étant en contact si elle reste en contact avec une plante (tout type de
+plante) ou un pot contenant une plante à la fin du match.
+• La coccinelle n’a pas le droit de sortir une plante d’une zone, ou de faire entrer une plante dans une zone
+(invalidation de l’action de la coccinelle le cas échéant, et remise en place de la plante concernée).
+• Les coccinelles ont les contraintes dimensionnelles suivantes :
+– L’ensemble des coccinelles doit entrer dans la zone de départ des PAMIs (15 cm par 45 cm).
+– Les coccinelles ont une limite de 15 cm de hauteur.
+– Une coccinelle doit être plus grande qu’un cube de 60mm de côté.
+• La masse de chaque coccinelle ne doit pas excéder 1 kg.
+• Aucune coccinelle ne peut être commandée par un élément externe à la table de jeu (membre de l’équipe,
+télécommande depuis le public, etc.).
+D.7.c.
+
+POINTS
+
+• P 4 points par zone de dépose de l’équipe occupée par au moins une coccinelle à la fin du match.
+• P 5 points supplémentaires par zone de dépose de l’équipe dans laquelle au moins une coccinelle est
+en contact avec une plante ou un pot contenant une plante en fin de match.
+• Attention : si une coccinelle réalise ses actions dans une zone adverse, alors les points ainsi fait vont à
+l’équipe adverse.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+13
+
+D.8. RETOURNER SE RECHARGER LES BATTERIES
+Une fois leur travail terminé, les robots doivent aller se recharger les batteries dans leurs stations de recharge.
+Mais attention ! Les robots ont déjà vidés les batteries de leurs zones de départ, il faudra donc aller se ravitailler
+ailleurs.
+D.8.a.
+
+DESCRIPTION ET DISPOSITION DES ÉLÉMENTS DE JEU
+
+Cette action implique les robots, les marqueurs de zones de départ et les aires de recharge (les PAMI sont
+exclus de cette action).
+
+D.8.b.
+
+ACTIONS ET CONTRAINTES
+
+Actions :
+• À la fin du match, les robots doivent être arrêtés dans leurs aires de recharge respectives.
+Contraintes :
+• A la fin du temps de préparation, les arbitres placeront le marqueur de zone de départ sur les bords des
+zones occupées par le robot.
+• Pour être considéré valide en zone, tous les robots doivent avoir tout ou partie de leurs projections
+verticales dans l’aire de recharge de son équipe.
+• Pour être considéré en zone valide, les robots doivent être dans une aire de recharge différente des
+zones de départ, i.e. dans une aire sans marqueur de zone de départ.
+D.8.c.
+
+POINTS
+
+• P 6 points si le robot de l’équipe est dans l’aire valide;
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+14
+
+D.9. ANTICIPER LE FUTUR RENDEMENT DE LA RÉCOLTE
+D.9.a.
+
+DESCRIPTION ET DISPOSITION DES ÉLÉMENTS DE JEU
+
+Le dispositif d’affichage de l’estimation du score réalisé pendant le match doit être réalisé par l’équipe.
+D.9.b.
+
+ACTIONS ET CONTRAINTES
+
+• L’équipe doit évaluer le nombre de points effectués dans le match par son ou ses robot. Pour cela deux
+options exclusives :
+– Évaluation avant le match sur un dispositif d’affichage statique : l’équipe inscrit le score qu’elle
+prévoit de faire pendant le match.
+– Évaluation en cours de match sur un dispositif d’affichage dynamique, qui doit continuer à être
+affiché après la fin du match.
+• L’affichage doit être sur le robot.
+• La zone d’affichage et son sens de lecture doivent être visibles et identifiables aisément par les arbitres.
+Et si possible visible depuis le public.
+• Le score estimé est un entier et doit être exprimé en système décimal.
+• Le score ne doit en aucun cas évoluer une fois le match terminé, sans quoi le bonus d’estimation sera
+perdu !
+D.9.c.
+
+POINTS
+
+L’estimation se base les actions suivantes:
+• REMPOTER LES PLANTES ET LES METTRE EN CULTURE.
+• ORIENTER LES PANNEAUX SOLAIRES.
+• RETOURNER SE RECHARGER LES BATTERIES.
+Le bonus d’estimation est calculé de la façon suivante : Bonus = P 7 points - Écart
+• Le score est celui fait par l’équipe durant le match sur les actions listés ci-dessus.
+• L’écart est la différence entre le score fait par l’équipe durant le match et le score estimé par l’équipe.
+Celui-ci est toujours positif (valeur absolue).
+• Le bonus est ajouté aux points de l’équipe.
+• Un bonus négatif est ramené à 0.
+• Les pénalités ne sont pas pris en compte dans le calcul de la performance.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+15
+
+E. PRÉSENTATION DU PROJET
+Les rencontres EurobotOpen et Eurobot Open Junior sont avant tout des supports à la pratique ludique des
+sciences. Les principaux objectifs de ces rencontres sont de vous accompagner et de valoriser vos travaux et
+projets de l’année. Pour cela, la conception d’un poster est requise et les organisateurs peuvent également
+demander de réaliser un dossier technique.
+Il est demandé de réaliser des robots esthétiques et si possible en phase avec le thème du règlement. Faire
+preuve de créativité et d’originalité mettra en valeur votre travail autant qu’avoir un robot efficace pendant ses
+matchs. Une grande valeur sera donnée à la communication de votre projet et au rendu visuel de vos robots ;
+tant pour les visiteurs qui viendront vous rencontrer que pour votre propre satisfaction d’avoir réalisé quelque
+chose d’abouti esthétiquement et fonctionnellement.
+POSTER TECHNIQUE
+Chaque équipe est tenue de fournir un poster technique au comité d’arbitrage durant l’année ; la date étant
+spécifiée dans les conditions de participation.
+Ce poster présente les informations liées à la conception du robot (des dessins, des renseignements techniques, des détails de conception, des éléments de stratégie, etc.). Il doit être au moins au format A1 (594 x
+841 mm) et doit être apporté le jour de la rencontre. Le poster technique est destiné à promouvoir l’échange
+et la communication entre les équipes.
+Un effort particulier devra être fait pour rendre le poster compréhensible par un auditoire non technique. Le
+poster devra impérativement inclure des images et/ou des diagrammes pour aider à expliquer les concepts.
+Le poster doit aussi faire apparaître :
+• le nom de l’équipe.
+• le nom complet des membres de l’équipe.
+• la nationalité de l’équipe.
+• le drapeau du pays de l’équipe.
+Ce poster sera affiché sur le stand de l’équipe sur les lieux des rencontres. Pour la finale internationale, il sera
+demandé une version en anglais. La résolution choisie doit garantir la lisibilité de tous les textes. Le fichier
+PDF résultant ne doit pas excéder 25 Mo. La version PDF du poster pourra être envoyée à l’organisation avant
+la rencontre via votre comité d’organisation national.
+De manière générale, l’organisation incite les équipes à communiquer autour de leur projet, sur Internet, les
+réseaux sociaux, via les forums, etc.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+16
+
+F. LES ROBOTS
+F.1. GÉNÉRALITÉS
+Chaque équipe peut homologuer un robots et un ou plusieurs PAMIs (Petits Actionneurs Mobile Indépendant).
+Chacun de ces robots et PAMIs ont des contraintes dimensionnelles spécifique, mais il doit être possible de
+distinguer les robots et PAMIs de l’équipe des robots et PAMIs de l’autre équipe depuis le public.
+Pour EurobotOpen , le robot et les PAMI sont autonomes.
+
+La réalisation des PAMIs est facultative. L’objectif est de permettre aux équipes dont les membres sont
+nombreux de travailler sur un second projet. Il est par ailleurs recommandé aux équipes débutantes de
+se concentrer sur la réalisation d’une seule machine fonctionnelle. Mieux vaut un robot qui fonctionne
+bien que plusieurs qui ne bougent pas.
+
+Un PAMI ne peut concourir qu’avec le robot principal avec lequel il a été conçu et homologué. On ne peut pas
+le ré-homologuer avec un autre robot principal.
+Le robot principal et les PAMI doivent être composés d’éléments solidaires les uns des autres (les robots ne
+peuvent donc pas laisser des pièces ou des éléments sur l’aire de jeu), exception faite des éléments de jeu.
+Faire délibérément vibrer la table, se fixer à elle ou toute autre action irrégulière expose l’équipe à un refus
+d’homologation.
+Chaque équipe doit concevoir un ensemble de robots unique et original, propre à son équipe
+Faites preuve d’imagination ! Par exemple, à titre d’innovation mais aussi pour offrir au public et aux médias
+un spectacle attractif, votre robot peut utiliser des sons, afficher des expressions, etc.
+
+F.2. DIMENSIONS
+Avertissement : les dimensions des robots d’EurobotOpen sont identiques à celles d’EurobotOpen Junior. Ainsi
+les participants d’EurobotOpen Junior peuvent plus facilement accéder aux rencontres EurobotOpen . Le robot
+d’EurobotOpen Junior ne nécessitera ainsi que des modifications afin de le rendre autonome.
+Dimensions des robots :
+Le périmètre d’un robot est le périmètre de l’enveloppe convexe de sa projection verticale au sol. On mesure
+le périmètre d’un robot en l’entourant comme le montrent les illustrations ci-dessous :
+Dimensions d’un robot :
+
+Non déployé
+<= 1200mm
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+Déployé
+<= 1300mm
+
+17
+
+Le périmètre d’un robot ne doit pas excéder 1200 mm au moment du départ. Le périmètre de ce robot totalement déployé ne doit pas excéder 1300 mm au cours du match. Il est accepté que la forme de l’enveloppe
+convexe du robot projeté au sol change dynamiquement, tant que le périmètre du robot respecte à tout instant
+les contraintes de périmètre maximal.
+À tout instant au cours du match, la hauteur de chaque robot et des objets manipulés ne doit pas dépasser 350
+mm. Cependant, il sera toléré que le bouton d’arrêt d’urgence dépasse de cette hauteur limite pour atteindre
+375 mm.
+Cette hauteur exclut le mât du support de balise, d’éventuels capteurs et circuits électroniques intégrés sous
+le mât du support de balise.
+
+F.3. CONTRAINTES DE SÉCURITÉ
+F.3.a.
+
+GÉNÉRALITÉS
+
+Tous les systèmes (robots, balises et accessoires) sont tenus de respecter les réglementations en
+vigueur en Europe et dans les pays organisateurs des rencontres.
+
+Ils doivent respecter les réglementations en matière de sécurité et ne doivent en aucun cas mettre en danger
+les participants, les organisateurs ou le public aussi bien pendant les matchs qu’en arrière-scène ou dans les
+stands. Ils ne doivent pas comporter de parties saillantes ou pointues susceptibles d’être dangereuses ou de
+provoquer des dégâts.
+L’utilisation de produits liquides, corrosifs, combustibles, pyrotechniques, radioactifs, être vivants ou zombies
+est interdite.
+De façon générale, tout système estimé par le comité d’arbitrage comme dangereux ne sera pas homologué,
+et devra être retiré du robot avant la rencontre pour pouvoir jouer.
+F.3.b.
+
+SOURCES D’ÉNERGIE
+
+Les seules sources d’énergie stockées autorisées dans les robots et les systèmes annexes sont les batteries
+électrique chimique, les piles du commerce certifiées CE, les ressorts et élastiques, l’air comprimé, l’énergie
+gravitationnelle. Toutes autres sources d’énergie sont interdites.
+Si vous avez le moindre doute sur une source d’énergie inhabituelle, interrogez dès que possible le comité
+d’arbitrage, en fournissant les documentations correspondantes.
+Tous les systèmes doivent se conformer aux réglementations standard en matière de "basse tension". De ce
+fait, les tensions embarquées ne doivent pas dépasser 48 V en courant continue et 48 V crête à crête
+en alternatif.
+Des différences de potentiel supérieures à 48 V peuvent exister, mais uniquement à l’intérieur de dispositifs
+commerciaux fermés (ex : lasers, rétro-éclairage d’écrans LCD, etc.) et uniquement si ces dispositifs n’ont pas
+été modifiés et s’ils sont eux-mêmes conformes aux réglementations nationales et Européennes.
+Batteries :
+Si l’équipe fait le choix d’une alimentation par batteries, nous rappelons que seules des batteries non modifiées
+peuvent être utilisées.
+Les équipes doivent être en mesure de jouer trois matchs de suite. À noter que cela inclut les délais nécessaires à la mise en place, pendant lesquels le robot sera alimenté et en attente du départ (cela peut prendre
+plusieurs minutes sur certain évennement).
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+18
+
+En conséquence, nous recommandons fortement aux équipes de se munir de plusieurs jeux de batteries et de
+prévoir un accès aisé à ces dernières dans le robot pour leur changement. On rappelle aux équipes qu’il est
+indispensable d’avoir un jeu de batteries de rechange, entièrement chargé et disponible à tout moment.
+Note concernant l’usage de batteries à base de Lithium :
+Les batteries Lithium sont reconnues pour leur manque de stabilité et peuvent s’enflammer facilement lorsque
+certaines précautions ne sont pas prises.
+Ce type de batterie est donc autorisé aux conditions suivantes :
+• Chargeur adapté à présenter impérativement aux homologations.
+• Batteries en permanence dans des sacs ignifuges du commerce, non modifiés.
+• Un système pour détecter les sous-charges est très fortement recommandé.
+• Exception dans le cas des batteries suivantes, autorisées sans les conditions listées ci-avant :
+– Batteries à base de Lithium pour LEGO Mindstorm / ordinateur portable / téléphone portable /
+matériel électroportatif, non démontées et utilisées pour l’usage prévu par le fabricant.
+– Batteries Lithium-Fer (LiFePo4)
+Dans l’éventualité où une équipe serait en possession d’une batterie à base de Lithium instable, celle-ci est
+pleinement responsable des éventuels dégâts occasionnés par la batterie défectueuse. De plus, l’équipe doit :
+1. Procéder à sa mise en sûreté immédiate.
+2. Prévenir sans délais l’organisation de la rencontre.
+3. Procéder à sa mise au recyclage, par ses propres moyens, avant la fin de la rencontre.
+Bouton d’arrêt d’urgence :
+Tous les robots doivent être équipé d’un bouton d’arrêt d’urgence rouge d’au moins 20 mm de diamètre, ainsi
+que les autres systèmes comprenant des parties mobiles (moteur, actionneur, ...) ou des composants potentiellement dangereux (laser, lumière puissante ...). Il sera placé au sommet pour les robots ou sur une face
+facilement accessible pour les autres éléments, dans une position visible sur une surface libre, dans une zone
+non dangereuse et immédiatement accessible par les arbitres à tout moment.
+Le bouton peut dépasser la hauteur réglementaire du système de 25 mm. Le bouton d’arrêt d’urgence doit
+pouvoir être actionné par un simple mouvement et rapide (par exemple, en le percutant avec le poing).
+Seules exceptions à cette règle, les balises embarquées sur le mat de balise des robots adverses sont exemptées de bouton d’arrêt d’urgence, ainsi que les systèmes commerciaux fermés et non modifiés).
+L’appui sur ce bouton doit provoquer l’arrêt immédiat du systèmes. Pour les robots, la non coupure des systèmes de commandes et d’évitement est toléré.
+Afin d’éviter tout risque de feu, il est demandé de porter une attention particulière au choix des fils conducteurs,
+en fonction de l’intensité des courants les traversant. Il est aussi fortement conseillé de protéger l’installation
+électrique avec des fusibles, câblés au plus proche des batteries.
+F.3.c.
+
+LASERS
+
+Seules les définitions de classe de laser (définies selon la norme internationale IEC60825) seront considérées. Les équipes utilisant des lasers devront impérativement fournir un document du constructeur mentionnant la classe du dispositif (cette information est normalement systématiquement disponible sur le système
+lui-même).
+Sur la base de cette classification, les lasers de classe :
+• 1 et 1M sont acceptés sans restriction
+• 2 sont tolérés si le rayon laser n’est jamais projeté en dehors de l’aire de jeu, et s’il est éteint quand le
+robot ne touche pas l’aire de jeu.
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+19
+
+• 2M, 3R, 3B et 4 sont formellement interdits.
+
+ATTENTION : démonter ou modifier des appareils utilisant des sources lasers entraîne souvent un
+changement de classe. Les appareils lasers doivent donc être utilisés dans leur état de commercialisation (appareil lasers = source + optique + électronique).
+
+F.3.d.
+
+SOURCES LUMINEUSES DE FORTE PUISSANCE
+
+En cas d’utilisation d’une source lumineuse de forte intensité, l’intensité lumineuse ne doit pas être dangereuse
+pour l’œil humain en cas d’illumination directe. Notez que certains types de LED comportent des avertissements. Soyez responsables ! Vos machines évoluent devant un public non averti !
+Au moindre doute, l’organisation se réserve le droit de demander les spécifications du constructeur afin de
+vérifier la non dangerosité du système d’éclairage utilisé. S’il s’avère que le système est potentiellement dangereux, il pourra être refusé à l’homologation au même titre que les lasers de classe 2M et plus.
+F.3.e.
+
+SYSTÈMES À AIR COMPRIMÉ
+
+Aucun système à air comprimé ne doit dépasser 4 bars, sauf à l’intérieur de dispositifs commerciaux préassemblés, et uniquement si :
+1. ces dispositifs n’ont pas été modifiés.
+2. ils sont eux-mêmes conformes aux réglementations Européennes.
+3. ils ne présentent aucun danger.
+L’utilisation des cartouches de gaz sous pression telles que les cartouches de CO2 est prohibée
+
+F.4. SIGNAUX DE COMMUNICATION
+Pour éviter des interférences entre les équipes, il est recommandé de coder les signaux de communication.
+Nous recommandons fortement aux équipes utilisant des dispositifs infrarouges de tenir compte de la forte
+lumière ambiante utilisée pendant les rencontres. De plus, cette luminosité peut varier pendant les rencontres,
+dans le temps et selon l’emplacement de l’aire de jeu dans la salle.
+Nous rappelons aussi que l’équipe d’organisation utilise des dispositifs radio à haute fréquence et qu’en aucun
+cas, elle ne pourra être tenue pour responsable des dysfonctionnements rencontrés par les robots.
+ATTENTION : Au-delà des bordures de l’aire de jeu, il peut y avoir des éléments pouvant perturber la détection
+des couleurs ou des signaux de communications tels que :
+• éléments de décors de l’aire de jeu
+• personnes (arbitres, équipes, etc.)
+• des systèmes électroniques (micros, caméras etc.)
+En aucun cas il n’est possible de demander aux personnes de s’écarter ou de bouger des éléments de décors
+autour de l’aire de jeu.
+Utilisation de réseaux Wifi :
+Lors de certaines rencontres, le nombre d’équipement Wifi environnant peut perturber les robots
+utilisant ce mode de communication. Pour répondre à ce problème, il est recommandé (mais nonobligatoire) d’utiliser la bande de fréquences 5 GHz au lieu de la bande 2.4 GHz.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+20
+
+F.5. AUTRES CONTRAINTES DE CONCEPTION
+
+Tous les systèmes (robots, balises, dispositif de calcul déporté et accessoires) doivent être présent
+sur la table et n’ont pas le droit communiquer avec des systèmes extérieur à la table durant les matchs.
+
+Visibilité : Un espace rectangulaire, entier et indéformable de 100 x 70 mm par robot doit être laissé libre
+sur l’une des faces verticales. Les équipes recevront des autocollants imprimés par l’organisation (numéro
+d’équipes, sponsors de l’événement), qu’elles placeront sur ces espaces libres.
+Il est également vivement recommandé (mais non-obligatoire) de fermer les espaces vides des robots afin de
+faciliter leur détection par les autres robots.
+Cordon de démarrage de robots autonomes : Les robots doivent être équipés d’un dispositif de départ
+facilement accessible sur les robots. Ce dispositif sera déclenché en tirant l’extrémité d’un cordon d’au moins
+500mm de long. Ce cordon ne restera pas attaché sur le robot après le départ.
+Aucun autre système de démarrage manuel (télécommande, interrupteur à bascule activé manuellement, etc.)
+ne sera homologué.
+Système d’évitement d’obstacles : Les équipes sont tenues d’équiper leur robot d’un système de détection
+des robots adverses. Le système est destiné à empêcher les collisions entre les robots pendant un match. Ce
+point sera systématiquement vérifié lors de l’homologation.
+Support de balise embarquée : Afin de faciliter le repérage des robots sur le terrain, les robots doivent
+intégrer un support de balise embarqué afin d’accueillir la balise de l’équipe adverse. Ce support devra, à tout
+moment, respecter les points suivants :
+• avoir une enveloppe convexe sur toute la hauteur entre le sommet du robot et le support de balise, de
+taille minimale un cercle de diamètre 70 mm et de taille maximale un carré de 100 mm de côté ;
+• être plein et opaque (matière capable d’intercepter la lumière au moins dans le spectre infrarouge ; et
+également opaque pour le visible, sauf en cas de nécessité justifiée) ;
+• avoir sa surface supérieure plane, horizontale et positionnée à une hauteur de 430 mm du niveau de
+l’aire de jeu et permettant de placer la balise de repérage de l’équipe adverse, il est recommandé de
+faire un support à hauteur réglable ;
+• la surface de la plateforme sera intégralement recouverte sur sa partie supérieure de VelcroT M (face
+crochets) ;
+• le support de balise embarqué devra être situé le plus au centre possible du robot en projection verticale,
+et obligatoirement dans un cercle de diamètre 20 cm autour du centre du robot ;
+• le support de balise embarqué ne peut accueillir que des systèmes de détection et de télécommunication.
+• le support de balise doit être le moins évidé possible entre la hauteur de 350 mm et 430 mm. Les
+équipes utilisant des dispositifs tournants, veilleront à ce que la portion de support retirée ait une hauteur
+inférieure à 2 cm (exception à la taille minimale de l’enveloppe convexe), et qu’il ne soit pas possible voir
+à travers le mat par cette ouverture.
+• le support de balise embarqué doit être stable, immobile par rapport à la structure du robot et doit pouvoir
+soutenir une masse minimum de 400 g (balise adverse & tag aruco), sans fléchir ni se compresser.
+Une équipe peut cependant choisir de ne pas équiper son robot de support de balise embarqué. Dans ce cas,
+si l’équipe adverse exige un support de balise, et en a l’utilité (soit pour détecter le mât, soit pour y placer une
+balise), l’équipe ou le robot concerné pourra être déclaré(e) forfait.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+21
+
+F.6. PETIT ACTIONNEUR MOBILE INDEPENDANT
+Les petits actionneurs mobile indépendant (ou PAMI) doivent respecter les même contraintes de construction
+et de sécurité que les robots (BAU, évitement, laser, sac pour batterie lipo,...)
+Ils pourront être lancé en début de match par un cordon de démarrage, ou bien durant le match par les robots
+eux-même. Un robot a le droit de toucher ou communiquer avec les PAMI de son équipe durant toute la durée
+du match,mais le PAMI doit bouger par lui-même.
+Les PAMI doivent respecter les contraintes dimensionnelles suivantes :
+• L’ensemble des PAMI doit entrer dans la zone de départ des PAMIs (15 cm par 45 cm).
+• Un PAMI a une limite de 15 cm de hauteur.
+• Un PAMI doit être plus grand qu’un cube de 60mm de côté.
+• Un PAMI peut se déployer dans la limite d’une augmentation de 10 cm de son périmètre.
+Dimensions d’un PAMI :
+
+Non déployé
+= Pmin
+
+Déployé
+= Pmax <= Pmin + 100mm
+
+Les PAMIs sont exemptés des éléments suivants :
+• Le mat de balise.
+• Le support de balise (et donc ne portent pas de marqueur ArUco).
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+22
+
+G. SYSTÈME DE REPÉRAGE PAR BALISES
+G.1. GÉNÉRALITÉS
+Afin que les équipes qui le souhaitent puissent développer un système de localisation absolu par balise, l’aire
+de jeux comprend des emplacements spécifiques pour les accueillir.
+Si l’adversaire le demande et en a réellement l’utilité, les robots devront être équipés d’un mât de balise permettant la fixation d’une balise de l’adversaire au-dessus (cf. sous-section F.5. ).
+Les balises (balises fixes, balises embarquées et dispositif de repérage central) doivent rester en place sur
+leurs supports pendant toute la durée du match. Toutes les consignes de sécurité concernant les robots s’appliquent de manière équivalente aux balises. Les balises ne peuvent accueillir que des systèmes de détection
+et de télécommunication.
+Les balises fixes, le dispositif de repérage central, les mâts de balises, les balises embarquées ainsi que leurs
+supports respectifs sont décrits ci-après.
+
+Figure 11 - Exemple de positionnement des balises
+Légende :
+1. balises fixes (dimensions maximales L x l x h : 100 x 100 x 1000 mm)
+2. balise embarquée (dimensions maximales L x l x h : 100 x 100 x 80 mm)
+3. mât du balise (cf. sous-section F.5. )
+
+G.2. BALISE EMBARQUÉE SUR LE ROBOT
+Une balise peut être placée sur chaque robot adverse, de manière à localiser ce dernier. Elle est placée sur
+un mât dédié, à une altitude de 430 mm par rapport à l’aire de jeu. La taille maximale pour une balise de
+localisation embarquée est un parallélépipède de base carrée de côté 100 mm et de hauteur 80 mm.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+23
+
+La face supérieure des balises embarquées doit être plane et recouverte de VelcroT M côté crochets et la face
+inférieure des balises embarquées doit être recouverte de VelcroT M côté velours.
+Il est conseillé d’utiliser des couleurs majoritairement blanches ou très claires pour les balises, afin de favoriser
+leur détection dans un environnement sombre.
+Au nom du fairplay, les éléments utilisés pour cette balise doivent avoir une utilité réelle. Toute balise "inutile"
+ou lestée pourra être refusée par l’organisation.
+Une balise embarquée ne doit pas excéder 300 g
+G.3. BALISES FIXES
+Chaque équipe peut placer jusqu’à trois balises fixes sur des supports fixes attribués à l’équipe, placés autour
+de l’aire de jeu.
+Les "action-cams" non utiles pour le déroulement du jeu sont interdites dans les balises fixes.
+G.3.a.
+
+DIMENSIONS
+
+Les balises fixes doivent être intégralement contenues dans un parallélépipède rectangle de base carrée de
+100 mm de côté et de hauteur 1000 mm.
+Une balise fixe ne doit pas excéder 1.5 kg.
+G.3.b.
+
+SUPPORT DE BALISE
+
+Les supports de balise fixe sont des surfaces carrées de 100 mm de côté et placé au niveau du sol de la table,
+et à 44 mm du bord de la surface de jeu (voir disposition sur le plan de la table).
+Les supports de balise fixe ont une rainure de 10 mm de largeur qui part de leur centre vers le coté opposé
+à la table. Le coté opposé à la table des supports de balise fixe est ouvert, les autres cotés du supports de
+balise fixe ne sont pas obligatoirement ouvert.
+G.3.c.
+
+FIXATION
+
+Compte tenu de la hauteur potentielle des balises fixes, elles doivent disposer d’un système de fixation solide.
+Une tige filetée de 8 mm de diamètre et un écrou papillon doivent être utilisés pour sécuriser la balise dans la
+rainiure du support.
+La taille de la vis n’est pas prise en compte dans les contraintes dimensionnelles des balises fixes.
+L’absence de ce système de fixation empêchera l’homologation des balises fixes.
+
+Afin de permettre une fabrication des supports de balises fixes par l’impression 3D, deux modèles
+(A et B) sont proposés en annexe J.1.e.. Ces modèles ne sont pas contractuels, les organisations se
+réservent le droit d’avoir leurs propres modèles conformément aux caractéristiques définies ci-dessus.
+
+G.4. DISPOSITIF DE CALCUL ET D’OBSERVATION DEPORTÉ
+Pour que les robots puissent accéder à une plus grande puissance de calcul et faire du repérage des robots
+en vue de dessus, une plateforme partagée située sur l’axe de symétrie central du fond du terrain (voir plan)
+est placée sur le bord de la table (70mm au dessus du sol de la table).
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+24
+
+Le dispositif de calcul et d’observation déporté devra être placé sur la partie de la plateforme de la couleur de
+l’équipe. Il ne devra pas monter au-delà d’un plan horizontal situé à 160 cm au-dessus de la surface supérieure
+de la plateforme, et ne devra pas descendre en dessous du support inférieur de la plateforme. Sur les côtés,
+seul un déport de 10 cm à l’arrière de la plateforme est autorisé, soit une surface de 45 cm par 32 cm. Sa
+masse devra être inférieure à 5 kg.
+Il est interdit de dépasser sur la partie de plateforme de l’adversaire.
+Merci de noter que le dispositif de calcul et d’observation déporté peut être soumis à des vibrations, dues aux
+déplacements des robots, sur l’aire de jeu sur laquelle il est fixé.
+Fixation :
+L’épaisseur de la plateforme de fixation du dispositif de calcul est de 22 mm.
+La plateforme de fixation est percé d’une rainure de 10 mm de large. Une tige filetée de 8 mm de diamètre
+et un écrou papillon doivent être utilisés pour sécuriser le dispositif de calcul sur son support. Tous les éléments compris dans le dispositif de calcul doivent être correctement fixé ensemble pour qu’aucun élément ne
+puissent sortir du volume prévu ou tomber de la table.
+L’absence de ce système de fixation empêchera l’homologation du système de calcul.
+
+Figure 13 - Principe de fixation du dispositif de calcul déporté
+
+G.5. AUTRE CONTRAINTE
+Les balises fixes et le système de calcul et d’observation peuvent être connectées par une liaison filaire. Cette
+connexion ne doit en aucun cas perturber le bon déroulement du match. L’installation de l’ensemble du système doit pouvoir être réalisée pendant le délai de préparation. Cela ne doit pas déranger l’équipe adverse.
+Pendant le temps de préparation, une liaison filaire temporaire peut être établie entre le robot et une ou plusieurs balises, mais à l’unique condition que cela ne constitue aucune gêne pour l’équipe adverse.
+Les éléments du système de repérage et de calcul ne doivent pas interagir avec les éléments de jeu (pour
+rappel : les robots et les PAMI ne sont pas des éléments de jeu).
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+25
+
+G.6. IDENTIFICATION DU ROBOT
+Lors de chaque match, les robots se verront attribuer un marqueur (fourni par l’organisateur) disposé au
+sommet du support de balise, ou au sommet de la balise embarquée (si présente)(figure 9). Ce marqueur a
+deux objectifs :
+• permettre au public d’identifier l’équipe à laquelle appartient un robot ;
+• permettre à un système de vision présent sur le système de calcul d’identifier et de localiser chaque
+robot.
+Le marqueur est un carré de 10cm de large, d’épaisseur 2cm (±2mm) et de masse inférieure ou égale à 100g.
+Sa face supérieure est recouverte d’un vinyle disposant d’un tag ArUco 4x4, centré, et de 7cm de côté. Une
+marge blanche de 1cm de large est laissée autour du tag ArUco pour faciliter sa détection. Enfin, un contour de
+0,5cm de large à la couleur de l’équipe est tracé au bord. La couleur de l’équipe occupe également la tranche
+du marqueur.(figure 9)
+• Les robots de l’équipe bleue recevront des marqueurs avec les tags ArUco 4x4 numérotés entre 1 et 5.
+• Les robots de l’équipe jaune recevront des marqueurs avec les tags ArUco 4x4 numérotés entre 6 et 10.
+• Tous les robots auront des marqueurs différents. Il ne sera pas possible de les choisirs, ni de choisir sur
+quel robot ils seront placés.
+• Les tags ArUco 4x4 numérotés de 11 à 50 sont réservés à l’aire de jeu et à ses éléments.
+ATTENTION : afin d’éviter toutes perturbations visuelles, l’utilisation par les équipes de tag ArUco 4x4 numérotés entre 0 et 50 est interdite.
+• Les tag ArUco 4x4 numérotés entre 51 et 70 sont réservés à l’usage de l’équipe bleue .
+• Les tag ArUco 4x4 numérotés entre 71 et 90 sont réservés à l’usage de l’équipe jaune .
+L’utilisation de tags numérotés au dessus de 90 ou de dimensions autres que 4x4 reste possible.
+
+(a) Marqueur d’identification de robot (Tag no1)
+
+(b) Marqueur sur le support de balise embarqué.
+
+F IGURE 9 : Un marqueur d’identification et leur positionnement sur une balise embarquée
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+26
+
+H. LES MATCHS
+Seules deux personnes par équipe sont autorisées à aller en arrière-scène et sur scène pour disputer les
+matchs.
+Pour le bon déroulement du concours, au moins un membre de l’équipes doit être présent sur le stand avec
+le(s) robot(s) et prêt à partir 30 minutes avant le début de chaque série et jusqu’à ce que le match soit joué.
+En cas de problème, il est toléré par l’organisation de demander un délai pour aller faire le match mais ce délai
+ne pourra jamais dépasser la fin de la série en cours.
+
+H.1. TEMPS DE PREPARATION
+Au départ d’un match, les éléments de l’aire de jeu et l’aire de jeu elle-même sont installés selon les indications
+données sur les schémas en annexe.
+À l’arrivée sur l’aire de jeu, chaque équipe dispose d’un maximum de trois minutes pour procéder à la mise en
+place des robots, des balises et des autres équipements. A la fin du temps de préparation, les robots ne sont
+plus autorisés à bouger jusqu’au début du match.
+Un robot qui n’est pas prêt à l’expiration de ce délai expose l’équipe à un forfait pour le match.
+De plus, le(s) robot(s) de l’autre équipe joueront tout de même son match seul sur l’aire de jeu. L’équipe devra
+marquer des points pour être déclarée vainqueur.
+Lorsque les deux équipes ont fini de s’installer, ou à la fin du temps de préparation, l’arbitre demande aux
+participants s’ils sont prêts, et il position le marqueur de zone de départ. À partir de ce moment, les équipes
+ne sont plus autorisées à toucher leurs robots. Il sera toléré que le bouton d’arrêt d’urgence soit actionné par
+les équipes après la préparation afin de préserver les batteries et actionneurs en attendant le début du match.
+Aucune contestation ne peut être faite sur la disposition des éléments de jeu après le début du match.
+
+H.2. LE MATCH
+Au signal de l’arbitre, chaque robot est mis en marche et dispose alors de 100 secondes pour effectuer ces
+actions.
+Personne excepté l’arbitre ne peut toucher aux robots et aux éléments de jeu, sauf indication expresse de
+ce dernier.
+Aucun élément sorti de l’aire de jeu ne pourra y être remis avant la fin du jeu et de la validation des scores.
+
+H.3. FIN DU MATCH
+A la fin des 100 secondes, les robots doivent s’arrêter et éteindre l’ensemble de leurs actionneurs. Il est autorisé de conserver les afficheurs dynamiques allumés.
+Personne excepté l’arbitre ne peut toucher aux robots et aux éléments de jeu, sauf indication expresse de
+ce dernier.
+Les arbitres font le décompte des points ; ils donnent le résultat du match, y compris les points aux équipes.
+Si elles sont d’accord toutes les deux, elles signent la feuille de match, elles peuvent alors reprendre leur(s)
+robot(s) et rejoindre leur stand.
+Si les équipes ne sont pas d’accord, elles en réfèrent calmement aux arbitres. Les robots restent en place tant
+que le litige n’est pas résolu.
+Les décisions d’arbitrage sont sans appel.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+27
+
+En cas de situation difficilement jugeable, les arbitres se réservent la décision de faire ou non rejouer le match.
+Les arbitres sont autorisés à prononcer la fin d’un match de manière anticipée, avant la fin du temps réglementaire si les deux équipes sont d’accord (si les robots sont bloqués par exemple).
+
+H.4. LE COMPTAGE DES POINTS
+Rappel des points
+H.4.a.
+
+REMPOTER LES PLANTES ET LES METTRE EN CULTURE
+
+• P 1 points par plante valide dans une zone adaptée
+• P 2 points supplémentaires si la plante valide est dans un pot
+H.4.b.
+
+ORIENTER LES PANNEAUX SOLAIRES
+
+• P 3 points pour chaque panneau valide pour l’équipe;
+H.4.c.
+
+ASSURER LA POLLINISATION DES PLANTES
+
+• P 4 points par zone de dépose de l’équipe occupée par au moins une coccinelle à la fin du match.
+• P 5 points supplémentaires par zone de dépose de l’équipe dans laquelle au moins une coccinelle est
+en contact avec une plante ou un pot contenant une plante en fin de match.
+• Attention : si une coccinelle réalise ses actions dans une zone adverse, alors les points ainsi fait vont à
+l’équipe adverse.
+H.4.d.
+
+RETOURNER SE RECHARGER LES BATTERIES
+
+• P 6 points si le robot de l’équipe est dans l’aire valide;
+H.4.e.
+
+ANTICIPER LE FUTUR RENDEMENT DE LA RÉCOLTE
+
+L’estimation se base les actions suivantes:
+• REMPOTER LES PLANTES ET LES METTRE EN CULTURE.
+• ORIENTER LES PANNEAUX SOLAIRES.
+• RETOURNER SE RECHARGER LES BATTERIES.
+Le bonus d’estimation est calculé de la façon suivante : Bonus = P 7 points - Écart
+• Le score est celui fait par l’équipe durant le match sur les actions listés ci-dessus.
+• L’écart est la différence entre le score fait par l’équipe durant le match et le score estimé par l’équipe.
+Celui-ci est toujours positif (valeur absolue).
+• Le bonus est ajouté aux points de l’équipe.
+• Un bonus négatif est ramené à 0.
+• Les pénalités ne sont pas pris en compte dans le calcul de la performance.
+
+Attention ! Un élément contrôlé par un robot, ne rapporte pas de points. Un élément est considéré
+contrôlé par un robot, si en déplaçant le robot selon un axe naturel de déplacement celui-ci est déplacé.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+28
+
+H.4.f.
+
+LES PÉNALITÉS
+
+Plusieurs actions durant le match pourront entraîner des pénalités.
+Les actions suivantes entraîneront un avertissement ou une perte de point sur le score final si un avertissement a déjà été émis pour l’équipe (la règle de l’avertissement n’est valable que pour les séries) :
+• perte de pièce ou d’élément d’un robot sur l’aire de jeu : perte de 20 points.
+• dégradation de la table ou d’un élément de jeu : perte de 30 points.
+• système d’évitement non fonctionnel : perte de 30 points.
+• faux départ : perte de 50 points.
+• le robot continue de bouger à la fin du temps imparti : perte de 50 points.
+• temps de préparation excessif : perte de 50 points.
+• le robot change de zone de départ après 3 minutes de préparation : perte de 50 points.
+• comportement non fair-play ou anti-jeu : perte de 50 à 100 points.
+• sur décisions de l’arbitrage : perte de 50 à 100 points.
+• sur décisions de l’organisation : perte de 50 à 100 points.
+Les actions suivantes entraîneront un forfait de l’équipe :
+• aucun robot ne sort de sa zone de départ.
+• retrait d’élément de jeu d’une aires protégées adverse.
+• temps de préparation excessif répété.
+• limitations dimensionnelles non-respectées.
+• faux départ répété.
+• tirer volontairement sur des personnes à proximité.
+• se fixer, faire vibrer la table.
+• intervention d’un membre de l’équipe sur la table, les éléments de jeu ou les robots, après le temps de
+préparation (à l’exception du bouton d’arrêt d’urgence).
+• intervention d’un membre de l’équipe sur la table, les éléments de jeu ou les robots, durant le match.
+• l’équipe n’est pas en mesure de disputer le match avant la fin de la série.
+• suite à des décisions d’arbitrage.
+• suite à des décisions du comité d’organisation.
+Les actions suivantes entraîneront la disqualification de l’équipe de la compétition :
+• désactivation volontaire des systèmes d’évitements des robots.
+• concevoir des robots notablement similaires à des robots d’autres équipes (par exemple : bases roulantes
+ou actionneurs identiques). Si au cours de l’année vous voyez une équipe faire un robot similaire au votre,
+signalez le au plus vite auprès de l’organisation.
+• dégradation volontaire de robot appartenant à d’autres équipes.
+• sur décisions du comité d’organisation.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+29
+
+Plusieurs pénalités peuvent être appliquées.
+Le score d’une équipe forfait ou un score négatif sera ramené à 0.
+Seuls les arbitres sont autorisés à intervenir sur l’aire de jeu ou les robots après le temps de préparation et
+durant le match. En cas de problèmes, demander aux arbitres d’intervenir eux-mêmes pour éviter le forfait.
+Le vidéo arbitrage est interdit.
+L’appréciation des pénalités et de l’anti-jeu reste à la discrétion de l’arbitrage. Ils ne pourront pas être contestées après le match. Une définition générale l’anti-jeu pendant un match peut se formuler ainsi : "Si le but, c’est
+de nuire sans construire, alors c’est de l’anti-jeu"2 .
+
+RAPPEL :
+Les pénalités ont pour objectif de compenser un préjudice après un éventuel incident pendant le déroulement du jeu. Une situation à pénalité est considérée comme le non-respect des règles du jeu,
+ce type de situation doit rester exceptionnel ! Dans de rare cas, une pénalité peut donner lieu au forfait de l’équipe. Le comité d’arbitrage sera également attentif aux pénalités distribuées entre plusieurs
+niveaux de rencontre (régionale/nationale/européenne).
+
+H.4.g.
+
+POINTS BONUS
+
+1 point bonus est attribué à toutes les équipes qui ne sont pas « forfait ». Ce point bonus n’est pas pris en
+compte dans le calcul de la performance.
+
+2 citation de Dr. Hugo BOISAUBERT, Président, le 10 septembre 2022 lors de la présentation du règlement 2023
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+30
+
+I. LES RENCONTRES
+I.1. GÉNÉRALITÉS
+Les rencontres EurobotOpen peuvent s’organiser sur trois niveaux :
+• régionales : quand elles existent (exemple : en France pour EurobotOpen Junior), elles permettent de
+qualifier un nombre d’équipes pour la rencontre nationale,
+• nationales : elles permettent de qualifier les équipes pour la rencontre européenne,
+• européennes : dernière étape qui réunit, toujours dans le même esprit amical, des équipes venues de
+différents pays d’Europe et d’ailleurs.
+Chaque rencontre se décompose en plusieurs étapes, successives :
+• L’homologation statique et dynamique des robots ;
+• Une phase qualificative, composée d’au moins 3 séries ;
+• Une phase de barrage éventuelle ;
+• Une phase finale.
+Les organisateur de chaque rencontres peuvent, s’il le souhaitent, distribuer des prix aux équipes afin de
+récompenser un aspect de la participation de l’équipe ou de son robot.
+I.2. L’HOMOLOGATION
+I.2.a.
+
+HOMOLOGATION STATIQUE
+
+Avant le début des matchs, les robots sont soumis au contrôle d’un arbitre qui vérifie leur conformité au
+règlement. Les robots doivent être capables de montrer facilement la totalité de leurs mécanismes.
+Les systèmes annexes (accessoires, balises, système de calcul, etc.) seront également soumis au contrôle
+statique (taille, masse, présence d’éléments obligatoires, etc.).
+I.2.b.
+
+HOMOLOGATION DYNAMIQUE
+
+Les robots sont mis en situation de jeu mais sans la présence d’une équipe adverse. En 100 secondes, au
+moins un robot doit sortir de sa zone de départ et chaque robot doit valider au moins une action. Certaines
+fonctionnalités spécifiques prévues dans le règlement seront également être vérifiées (minuterie, évitement
+des adversaires, etc.).
+Si l’ensemble constitué par le robot principal et les PAMI remplit ces conditions, il est déclaré homologué.
+I.2.c.
+
+MODIFICATIONS TECHNIQUES SIGNIFICATIVES APRÈS HOMOLOGATION.
+
+Il est indispensable d’informer les arbitres de toutes les modifications significatives (fonctionnelles, structurelles, dimensionnelles, etc.) apportées au(x) robot(s) ou tout autre élément après homologation. Les arbitres
+vérifieront alors les modifications apportées et procéderont à une nouvelle homologation s’ils l’estiment nécessaire. En cas de manquement avéré, l’équipe pourra être déclarée disqualifiée du concours.
+I.3. LA PHASE QUALIFICATIVE
+Pendant la phase de qualification, les équipes homologuées auront la possibilité de jouer au minimum trois
+matchs (souvent plus ; cela dépend des organisateurs locaux).
+Un classement est établi en fonction des points accumulés afin de sélectionner les équipes qualifiées pour la
+phase suivante.
+Les équipes éventuellement à égalité sont départagées en comparant leurs scores sans tenir compte des
+points bonus. Les organisateurs peuvent également recourir à des matchs supplémentaires.
+À l’issue de la phase qualificative, les premières équipes sont qualifiées pour la phase suivante.
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+31
+
+Nombre d’équipes participantes
+
+Minimum d’équipes sélectionnées
+
+N<=16
+
+4
+
+16<N<=50
+
+8
+
+50<N
+
+16
+
+I.4. LA PHASE DE BARRAGE
+Une phase supplémentaire de barrage peut être mise en place dans le cas où deux rencontres sont organisées
+en parallèle, la première qualifiant pour la seconde. Par exemple :
+• une rencontre régionale (A) et sa rencontre nationale (B)
+• ou une rencontre nationale (A) et la rencontre européenne (B)
+L’organisateur peut effectuer la phase qualificative des deux rencontres (A) et (B) de manière parallèle, ou de
+manière groupée. Dans ce cas, une phase de barrage peut être organisée afin de permettre la qualification
+d’équipes issues de la rencontre (A) pour la rencontre (B), les dispensant du rattrapage de l’ensemble des
+matchs de la phase qualificative de (B) au profit de cette phase de barrage.
+Les équipes participantes à cette phase de barrage sont :
+• les équipes de la rencontre (A), dans un nombre correspondant à son quota de qualification, et choisies
+dans l’ordre du classement à l’issue de la phase finale de (A) ou grâce à l’obtention d’un prix pendant la
+rencontre régionale.
+• les équipes de la rencontre (B), dans un nombre équivalent aux participants à cette phase issues de (A),
+choisies parmi les dernières équipes normalement qualifiées pour la phase finale de la rencontre (B).
+
+Exemple pour une rencontre nationale qualifiant trois équipes qualifiée pour sa finale européenne et
+dont la phase finale européenne comporte 16 équipes. Les équipes participantes à la phase de barrage
+sont :
+• les trois premières équipes de la rencontre nationale à l’issue de la phase finale de la rencontre
+nationale ;
+• et les équipes classées 16e, 15e et 14e de la phase qualificative de la rencontre européenne.
+
+Dans cette phase de barrage, un match sera joué pour chaque équipe participante. Les équipes participantes
+issue de la rencontre (A) qualifiée grâce au classement joueront, dans l’ordre de leur classement, avec les
+équipes issues de la rencontre (B) les plus mal classées. Et l’équipes de (A) qualifiées pour cette phase de
+barrage grâce à un prix joueront contre les équipes de (B) les mieux classées dans un ordre tiré au sort.
+Chaque équipe vainqueure de son match de barrage sera intégrée au tableau principal de la phase finale de
+la rencontre (B). À l’issue de la phase de barrage, l’arbre de la phase finale de la rencontre (B) présenté Figure
+10 pourra être revu afin de représenter plus fidèlement le niveau de chaque équipe.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+32
+
+I.5. LA PHASE FINALE
+À l’issue de la phase précédente, les équipes qualifiées constituent le tableau des matchs de la phase finale.
+Selon les rencontres, seules les équipes composées de membres de moins de 30 ans pourront accéder aux
+phases finales.
+
+F IGURE 10 : Tableau des phases finales
+Les rencontres de la phase finale sont à élimination directe, sauf autre mode d’organisation sur certaines
+rencontres. En cas de double forfait, de double défaite ou d’égalité, le match est rejoué immédiatement ; si ce
+deuxième match est encore un cas de double forfait, de double défaite ou d’égalité, le vainqueur est déterminé
+en fonction des points acquis à l’issue de la phase qualificative.
+La finale se joue en deux matchs gagnants. Attention de bien prévoir des batteries en conséquence pour les
+robots autonomes.
+I.6. QUALIFICATION POUR LA RENCONTRE NATIONALE
+Lorsqu’il existe des rencontres régionales, le nombre d’équipes qualifiées par rencontre régionale est proportionnel au nombre total d’équipes inscrites au niveau national.
+Seront qualifiées à la finale nationale les meilleures équipes du classement établi à l’issue de la phase qualificative de chaque rencontre régionale, ainsi qu’éventuellement une équipe choisie par les organisateurs parmi
+les prix.
+
+I.7. QUALIFICATION POUR LA RENCONTRE EUROPÉENNE
+Chaque pays participant à EurobotOpen organise une rencontre nationale afin de déterminer les équipes qualifiées pour la rencontre européenne.
+Les 3 équipes finalistes seront qualifiées pour participer à la rencontre européenne.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+33
+
+Retrouvez l’actualité et des informations sur EurobotOpen et EurobotOpen Junior sur le site Internet
+www.eurobot.org
+(Contient les liens web de votre organisation locale de rattachement)
+
+Toute l’équipe d’organisation d’EurobotOpen et d’EurobotOpen Junior vous souhaite beaucoup d’amusement et
+de réussite dans vos réalisations et vous donne rendez-vous rapidement autour d’une aire de jeu pour des
+rencontres entre robots !
+Robotiquement,
+le comité d’organisation EurobotOpen et EurobotOpen Junior.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+34
+
+J. ANNEXES
+J.1. PLANS
+
+F IGURE 11 : Vue du dessus de la table de jeu.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+35
+
+J.1.a.
+
+Panneau solaire
+
+F IGURE 12 : Panneau solaire
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+36
+
+F IGURE 13 : Support panneau solaire
+
+F IGURE 14 : Assemblage panneau solaire
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+37
+
+J.1.b.
+
+JARDINIERE
+
+F IGURE 15 : Jardinière
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+38
+
+J.1.c.
+
+MARQUEUR DE DÉPART
+
+F IGURE 16 : Marqueur de départ
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+39
+
+SUPPORT ZONE DE CALCUL
+
+22
+
+J.1.d.
+
+220
+
+220
+
+200
+
+100
+
+10
+
+R5
+
+450
+
+F IGURE 17 : Support zone de calcul et d’observation
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+40
+
+J.1.e.
+
+SUPPORTS DE BALISES
+
+122
+
+100
+
+22
+
+70
+
+70
+
+22
+
+22
+
+22
+
+Ø10
+
+45
+Ground level
+Niveau du sol
+
+50
+
+122
+
+R5
+
+22
+
+67
+
+45
+
+45
+F IGURE 18 : Support de balise fixe gauche (Modèle A)
+122
+
+22
+
+100
+
+70
+
+70
+
+22
+
+67
+
+122
+
+22
+
+45
+
+22
+
+22
+
+Ø10
+
+Ground level
+Niveau du sol
+45
+
+45
+
+F IGURE 19 : Support de balise fixe droit (Modèle A)
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+41
+
+F IGURE 20 : Support de balise fixe (Modèle B)
+J.1.f.
+
+POSITIONNEMENT
+
+F IGURE 21 : Positionnement d’un panneau solaire
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+42
+
+F IGURE 22 : Positionnement d’une jardinière
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+43
+
+J.2. RÉFÉRENCES DES MATÉRIAUX
+Éléments
+
+Matière ou références
+
+Remarque(s)
+
+Plantes fragiles
+
+- Plante IKEA modèle FEJKA de 5 cm
+de diamètre, vendu par lot de 3, recouverte de vinyle monomère antidérapant imprimé
+
+Ref : 405.084.07
+
+ou
+
+Plantes resistantes
+
+- Plante composée d’un pot en PLA en
+impression 3D recouvert de vinyle monomère antidérapant imprimé et d’une
+branche de plante artificielle,
+
+Voir fichiers STL, paramètres d’impression et tutoriel sur www.eurobot.
+org
+
+- Plante IKEA modèle FEJKA de 5 cm
+de diamètre, vendu par lot de 3, recouverte de vinyle monomère antidérapant imprimé
+
+Ref : 405.084.07
+
+ou
+- Plante composée d’un pot en PLA en
+impression 3D recouvert de vinyle monomère antidérapant imprimé et d’une
+branche de plante artificielle,
+
+Voir fichiers STL, paramètres d’impression et tutoriel sur www.eurobot.
+org
+
+Tags RFID
+
+Tag RFID compatible "NFC Forum
+Type 2 Tag"
+
+Ref : NTAG213 ou NTAG215
+
+Pot en fer
+
+Cache pot IKEA modèle ÅKERBÄR
+de 6 cm de diamètre en acier Galvanisé de 0.1 Litre. 36 par table.
+
+Ref : 905.371.53
+
+ou
+Pot en PLA en impression 3D
+
+Voir fichiers STL, paramètres d’impression et tutoriel sur www.eurobot.
+org
+
+Panneau solaire
+
+Impression 3D en PLA rempli à 40%
+recouvert de vinyle monomère antidérapant imprimé
+
+Voir fichiers STL, paramètres d’impression et tutoriel sur www.eurobot.
+org
+
+Support panneau solaire
+
+Impression 3D en PLA rempli à 40%
+recouvert de vinyle monomère antidérapant imprimé
+
+Voir fichiers STL, paramètres d’impression et tutoriel sur www.eurobot.
+org
+
+Tapis aire de jeu
+
+Vinyle monomère antidérapant imprimé
+
+Informations pour le commander
+fournies ultérieurement par Planète
+Sciences
+
+Jardinière
+
+Bois recouvert de vinyle monomère
+antidérapant imprimé
+
+Marquer de zone de départ
+
+Bois recouvert de vinyle monomère
+antidérapant imprimé
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+44
+
+Éléments
+
+Matière ou références
+
+Remarque(s)
+
+Support zone de calcul
+
+Bois recouvert de vinyle monomère
+antidérapant imprimé
+
+Support balise - Modèle A
+
+Bois recouvert de vinyle monomère
+antidérapant imprimé
+
+Support balise - Modèle B
+
+Impression 3D en PLA rempli à 40%
+recouvert de vinyle monomère antidérapant imprimé
+
+Voir fichiers STL, paramètres d’impression et tutoriel sur www.eurobot.
+org
+
+Marqueur d’identification
+de robot
+
+Impression 3D en PLA rempli à 40%
+recouvert de vinyle monomère antidérapant imprimé et de VelcroT M
+
+Voir fichiers STL, paramètres d’impression et tutoriel sur www.eurobot.
+org
+
+Afin de permettre une fabrication des supports de balises fixes par l’impression 3D deux modèles sont
+proposés. Ces modèles ne sont pas contractuels, les organisations se réservent le droit d’avoir leurs
+propres modèles conformément aux caractéristiques définies en G.3. . Il est possible que les tables
+utilisé par l’organisation aient encore les anciens modèle de supports de balises.
+
+J.3. TOLÉRANCES DE FABRICATION
+L’intégralité des dimensions sont exprimées en millimètre (ou mm). Les tolérances de fabrication respectent
+les règles suivantes, sauf précisions fournies directement sur les plans.
+Dimensions
+
+Tolérances générales
+
+≤ 20
+
+±1, 50
+
+> 20 et ≤ 70
+
+±2, 50
+
+> 70 et ≤ 150
+
+±4, 00
+
+> 150
+
+±5, 00
+
+Aucune réclamation concernant des écarts dimensionnels ne sera enregistrée.
+
+La densité des matériaux utilisés peut varier d’un organisateur à l’autre. Il est recommandé aux équipes de
+faire des essais avec plusieurs types de matériaux car la masse peut changer de manière significative.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+45
+
+J.4. RÉFÉRENCES DES COULEURS
+Couleurs
+
+Références
+
+CMJN
+
+Équipe bleue
+
+Bleu signalisation
+
+RAL 5017 Mat
+
+100% , 60% , 0% , 10%
+
+Équipe jaune
+
+Jaune signalisation
+
+RAL 1023 Mat
+
+0% , 25% , 100% , 0%
+
+Pot de plante resistantes
+
+Violet de sécurité
+
+RAL 4008 Mat
+
+0% , 42% , 2% , 48%
+
+Bordures et éléments non colorés
+
+Gris Silex
+
+RAL 7032 Mat
+
+15% , 10% , 25% , 20%
+
+Les teintes RAL peuvent varier en fonction de l’impression du tapis de l’aire de jeu.
+
+31e ÉDITION DES RENCONTRES DE ROBOTIQUE
+
+VERSION BETA DU RÈGLEMENT EUROBOTopen
+
+46
+
+

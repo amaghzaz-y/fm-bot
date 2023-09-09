@@ -1,0 +1,8 @@
+version: '3'
+
+tasks:
+  genvec:
+    cmds:
+      - echo 'Generating Vectores from PDF'
+      - go run scripts/genvec.go
+    silent: true
