@@ -8,8 +8,8 @@ import (
 )
 
 type Reply struct {
-	Prompt interface{}
-	Reply  string
+	Question string
+	Reply    string
 }
 
 func (b *Bot) Reply(query string) (*Reply, error) {
@@ -28,8 +28,8 @@ func (b *Bot) Reply(query string) (*Reply, error) {
 		return nil, err
 	}
 	return &Reply{
-		Prompt: prompt,
-		Reply:  answers[0],
+		Question: query,
+		Reply:    answers[0],
 	}, nil
 }
 

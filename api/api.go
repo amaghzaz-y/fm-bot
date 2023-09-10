@@ -1,6 +1,7 @@
 package api
 
 import (
+	"log"
 	"net/http"
 
 	fmbot "github.com/amaghzaz-y/fm-bot/internal"
@@ -25,6 +26,7 @@ func (a *API) replyHandler(c echo.Context) error {
 	if len(query) < 2 {
 		return c.String(http.StatusBadRequest, "bad query !!")
 	}
+	log.Println(query)
 	reply, err := a.Bot.Reply(query)
 	if err != nil {
 		return c.NoContent(http.StatusInternalServerError)
