@@ -7,17 +7,17 @@ import (
 	"github.com/sashabaranov/go-openai"
 )
 
-type Replies struct {
-	Prompt  interface{}
-	Replies []string
+type Reply struct {
+	Prompt interface{}
+	Reply  string
 }
 
-func (b *Bot) Reply(query string) (*Replies, error) {
+func (b *Bot) Reply(query string) (*Reply, error) {
 	ids, err := b.getIDs(query)
 	if err != nil {
 		return nil, err
 	}
-	
+
 	info, err := b.getInfo(ids)
 	if err != nil {
 		return nil, err
@@ -27,9 +27,9 @@ func (b *Bot) Reply(query string) (*Replies, error) {
 	if err != nil {
 		return nil, err
 	}
-	return &Replies{
-		Prompt:  prompt,
-		Replies: answers,
+	return &Reply{
+		Prompt: prompt,
+		Reply:  answers[0],
 	}, nil
 }
 

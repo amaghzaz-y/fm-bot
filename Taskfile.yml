@@ -1,6 +1,10 @@
 version: '3'
 
 tasks:
+  server:
+    cmds:
+      - echo 'FM-BOT SERVER MODE :'
+      - go run cmd/server/main.go
   run:
     cmds:
       - echo 'FM-BOT DEV MODE :'

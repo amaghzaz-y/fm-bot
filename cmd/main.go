@@ -15,5 +15,5 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(reps.Replies)
+	fmt.Println(reps.Reply)
 }
