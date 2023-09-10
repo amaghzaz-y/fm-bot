@@ -9,17 +9,17 @@ require (
 
 require (
 	github.com/google/uuid v1.3.1
-	go.etcd.io/bbolt v1.3.7
+	github.com/labstack/echo/v4 v4.11.1
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9
 )
 
 require (
-	github.com/labstack/echo/v4 v4.11.1 // indirect
 	github.com/labstack/gommon v0.4.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
+	go.etcd.io/bbolt v1.3.7 // indirect
 	golang.org/x/crypto v0.11.0 // indirect
 	golang.org/x/text v0.11.0 // indirect
 )
@@ -38,8 +38,7 @@ require (
 	github.com/google/flatbuffers v2.0.6+incompatible // indirect
 	github.com/google/orderedcode v0.0.1 // indirect
 	github.com/klauspost/compress v1.15.9 // indirect
-	github.com/ostafen/clover v1.2.0
-	github.com/ostafen/clover/v2 v2.0.0-alpha.3 // indirect
+	github.com/ostafen/clover/v2 v2.0.0-alpha.3
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.3.5 // indirect
