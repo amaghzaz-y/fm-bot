@@ -17,11 +17,17 @@ func (b *Bot) Reply(query string) (*Reply, error) {
 	if err != nil {
 		return nil, err
 	}
-
+	if len(ids) < 3 {
+		return &Reply{
+			Question: query,
+			Reply:    "please! dont abuse me :(",
+		}, nil
+	}
 	info, err := b.getInfo(ids)
 	if err != nil {
 		return nil, err
 	}
+
 	prompt := buildPrompt(query, info)
 	answers, err := b.getAnswer(prompt)
 	if err != nil {
@@ -44,7 +50,9 @@ func (b *Bot) getIDs(query string) ([]string, error) {
 	}
 	var ids []string
 	for _, r := range res {
-		ids = append(ids, r.ID)
+		if r.Distance > 0.82 {
+			ids = append(ids, r.ID)
+		}
 	}
 	return ids, nil
 }
