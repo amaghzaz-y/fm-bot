@@ -1,4 +1,4 @@
-package internal
+package fmbot
 
 import (
 	"encoding/json"
@@ -7,6 +7,7 @@ import (
 
 	"github.com/amaghzaz-y/fm-bot/pkg/db/index"
 	"github.com/ostafen/clover/v2"
+	"github.com/ostafen/clover/v2/document"
 	"github.com/sashabaranov/go-openai"
 )
 
@@ -17,30 +18,26 @@ type Bot struct {
 }
 
 func New() *Bot {
-	db, err := clover.Open("bot.db")
+	db, err := clover.Open("db/")
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("error opening db:", err)
 	}
 	openai := openai.NewClient(os.Getenv("OPENAI"))
-	idx := indexBuild()
 	return &Bot{
-		idx,
+		nil,
 		db,
 		openai,
 	}
 }
 
-// builds the index
-func indexBuild() *index.VectorIndex[string] {
-	idx, err := index.NewVectorIndex[string](1, 1536, 2, getDataPoints(), index.NewCosineDistanceMeasure())
-	if err != nil {
-		panic(err)
+func (b *Bot) Init() {
+	// purge old collection
+	if hasColl, _ := b.DB.HasCollection("vectors"); hasColl {
+		b.DB.DropCollection("vectors")
+		b.DB.CreateCollection("vectors")
+	} else {
+		b.DB.CreateCollection("vectors")
 	}
-	idx.Build()
-	return idx
-}
-
-func getDataPoints() []*index.DataPoint[string] {
 	blob, err := os.ReadFile("assets/embeddings.json")
 	if err != nil {
 		panic(err)
@@ -52,8 +49,34 @@ func getDataPoints() []*index.DataPoint[string] {
 	}
 	var dps []*index.DataPoint[string]
 	for _, embedding := range embeddings {
-		dp := index.NewDataPoint[string](embedding.Text, embedding.Vector)
+		id, err := b.insertEmbedding(&embedding)
+		if err != nil {
+			log.Println("error inserting embedding to db", err)
+			continue
+		}
+		dp := index.NewDataPoint[string](id, embedding.Vector)
 		dps = append(dps, dp)
 	}
-	return dps
+	idx, err := index.NewVectorIndex[string](1, 1536, 2, dps, index.NewCosineDistanceMeasure())
+	if err != nil {
+		panic(err)
+	}
+
+	idx.Build()
+	b.Index = idx
+}
+
+func (b *Bot) insertEmbedding(emb *Embedding) (string, error) {
+	doc := document.NewDocumentOf(emb)
+	return b.DB.InsertOne("vectors", doc)
+}
+
+func (b *Bot) getEmbeddingByID(id string) (*Embedding, error) {
+	doc, err := b.DB.FindById("vectors", id)
+	if err != nil {
+		return nil, err
+	}
+	var emb Embedding
+	err = doc.Unmarshal(&emb)
+	return &emb, err
 }

@@ -1,7 +1,7 @@
 version: '3'
 
 tasks:
-  dev:
+  run:
     cmds:
       - echo 'FM-BOT DEV MODE :'
       - go run cmd/main.go
