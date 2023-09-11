@@ -57,7 +57,7 @@ func (b *Bot) Init() {
 		dp := index.NewDataPoint[string](id, embedding.Vector)
 		dps = append(dps, dp)
 	}
-	idx, err := index.NewVectorIndex[string](1, 1536, 2, dps, index.NewCosineDistanceMeasure())
+	idx, err := index.NewVectorIndex[string](4, 1536, 20, dps, index.NewCosineDistanceMeasure())
 	if err != nil {
 		panic(err)
 	}

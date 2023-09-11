@@ -11,7 +11,7 @@ func main() {
 	godotenv.Load()
 	bot := fmbot.New()
 	bot.Init()
-	reps, err := bot.Reply("how far is the sun for earth ?")
+	reps, err := bot.Reply("les PAMIS")
 	if err != nil {
 		panic(err)
 	}

@@ -17,7 +17,7 @@ func (b *Bot) Reply(query string) (*Reply, error) {
 	if err != nil {
 		return nil, err
 	}
-	if len(ids) < 3 {
+	if len(ids) < 2 {
 		return &Reply{
 			Question: query,
 			Reply:    "please! dont abuse me :(",
@@ -50,7 +50,7 @@ func (b *Bot) getIDs(query string) ([]string, error) {
 	}
 	var ids []string
 	for _, r := range res {
-		if r.Distance > 0.82 {
+		if r.Distance > 0.65 {
 			ids = append(ids, r.ID)
 		}
 	}
@@ -71,6 +71,7 @@ func (b *Bot) getInfo(ids []string) ([]string, error) {
 }
 
 func (b *Bot) getAnswer(prompt []openai.ChatCompletionMessage) ([]string, error) {
+	log.Println(prompt)
 	res, err := b.OpenAI.CreateChatCompletion(context.TODO(), openai.ChatCompletionRequest{
 		Model:    openai.GPT3Dot5Turbo,
 		Messages: prompt,
