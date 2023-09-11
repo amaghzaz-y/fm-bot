@@ -71,7 +71,6 @@ func (b *Bot) getInfo(ids []string) ([]string, error) {
 }
 
 func (b *Bot) getAnswer(prompt []openai.ChatCompletionMessage) ([]string, error) {
-	log.Println(prompt)
 	res, err := b.OpenAI.CreateChatCompletion(context.TODO(), openai.ChatCompletionRequest{
 		Model:    openai.GPT3Dot5Turbo,
 		Messages: prompt,

@@ -5,6 +5,7 @@ import (
 
 	fmbot "github.com/amaghzaz-y/fm-bot/internal"
 	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
 )
 
 type API struct {
@@ -34,6 +35,7 @@ func (a *API) replyHandler(c echo.Context) error {
 
 func (a *API) Start() {
 	e := echo.New()
+	e.Use(middleware.CORS())
 	e.GET("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "FARMING MARS BOT API v0.1 (alpha)")
 	})

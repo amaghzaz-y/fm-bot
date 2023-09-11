@@ -7,8 +7,10 @@ export default function Home() {
     <main>
       <Title>FM-BOT</Title>
       <h1 class="text-center">FM-GPT</h1>
-      <Chatbar />
-      <Replycard />
+      <div class="flex flex-col gap-2 p-2">
+        <Chatbar />
+        <Replycard />
+      </div>
     </main>
   );
 }
