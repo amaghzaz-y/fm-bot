@@ -6,16 +6,17 @@ export default function () {
 
   return (
     <>
-      <div class="flex items-center justify-center gap-2">
+      <div class="flex items-center justify-center gap-2 w-full max-w-xl ">
         <input
           ref={input}
-          class="w-full max-w-xl outline-none border-none
+          class="w-full outline-none border-none
           h-5 font-size-4 rounded-md p-3
           bg-neutral-9 text-neutral-1"
           placeholder="Enter a prompt here"
         />
         <button
           onClick={async () => {
+            setAnswer("");
             let res = await fetch(`http://127.0.0.1:1323/chat/${input.value}`);
             let answer = await res.text();
             console.log(answer);

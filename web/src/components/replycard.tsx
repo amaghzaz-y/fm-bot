@@ -5,9 +5,9 @@ export default function () {
     <>
       <div
         class="flex items-center justify-center 
-      p-2 gap-2 bg-neutral-7 rounded-md"
+      p-3 gap-2 bg-neutral-7 rounded-md max-w-xl text-justify"
       >
-        {Answer().toString()}
+        {Answer() as string}
       </div>
     </>
   );
